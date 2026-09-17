@@ -266,7 +266,12 @@ module bore() {
 // laid only round the arc where there is a wall to meet.
 module foot() {
     ch = min(foot_ch, floor_t, R_I - 2);
-    aa = OPEN_W > 0 ? 2 * asin(min(1, OPEN_R / R_I)) : 0;   // arc the slot takes
+    // The chamfer is laid round the whole circle, because at floor level the
+    // wall is whole: the slot's foot sits well above it. Only if the slot were
+    // brought down into the floor would the chamfer have to step round it, and
+    // then only over the arc the slot actually takes there.
+    reaches = OPEN_W > 0 && open_bottom < floor_t + ch + 0.5;
+    aa = reaches ? 2 * asin(min(1, OPEN_R / R_I)) : 0;
     if (ch > 0)
         translate([0, YC, 0])
             rotate([0, 0, 270 + aa / 2])

@@ -284,5 +284,18 @@ edges below the flare, the chamfer where the wall meets the floor, and the drain
 are all untouched, and measured again after the change: the four vertical corners
 still read rounded at every height below the flare.
 
+### The foot chamfer ran short across the front
+
+It was laid only over the arc where the ring has a wall, stepping round the
+slot's angular span — which is wrong, because the slot's foot sits 29 above the
+floor and the wall down there is whole. The result was a **gap in the chamfer
+right across the front**, where it is most visible.
+
+It now runs the full circle, and only steps round the slot if the slot is brought
+low enough to reach the floor (`open_bottom` within a chamfer of it), which is
+the only case where there is no wall to chamfer. Probed at twelve angles round
+the bore, a chamfer's depth in from the wall and half a chamfer up from the
+floor: material at every one of them, front included.
+
 Ten combinations pass at 60°, including no flare at all, a large flare on a large
 radius, a tight flare on a small one, and flares on the Ø49 and Ø100.
