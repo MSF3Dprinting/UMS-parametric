@@ -1,0 +1,146 @@
+{
+  "b49": {
+    "bottle": "49"
+  },
+  "b56": {
+    "bottle": "56"
+  },
+  "b40": {
+    "bottle": "custom",
+    "custom_d": 40
+  },
+  "b70": {
+    "bottle": "custom",
+    "custom_d": 70
+  },
+  "b100": {
+    "bottle": "custom",
+    "custom_d": 100
+  },
+  "b20": {
+    "bottle": "custom",
+    "custom_d": 20
+  },
+  "slot_narrow": {
+    "bottle": "56",
+    "open_w": 14
+  },
+  "slot_wide": {
+    "bottle": "56",
+    "open_w": 44
+  },
+  "slot_low": {
+    "bottle": "56",
+    "open_bottom": 6
+  },
+  "slot_high": {
+    "bottle": "56",
+    "open_bottom": 50
+  },
+  "closed": {
+    "bottle": "56",
+    "open_w": 0
+  },
+  "fillet_none": {
+    "bottle": "56",
+    "open_fillet": 0
+  },
+  "fillet_max": {
+    "bottle": "56",
+    "open_fillet": 0.75
+  },
+  "fillet_clamped": {
+    "bottle": "56",
+    "open_fillet": 3
+  },
+  "no_foot_ch": {
+    "bottle": "56",
+    "foot_ch": 0
+  },
+  "big_foot_ch": {
+    "bottle": "56",
+    "foot_ch": 2.8
+  },
+  "no_drain": {
+    "bottle": "56",
+    "drain_d": 0
+  },
+  "no_shell": {
+    "bottle": "56",
+    "shell": false
+  },
+  "thin_wall": {
+    "bottle": "56",
+    "wall": 1.4,
+    "open_fillet": 0.4
+  },
+  "thick_wall": {
+    "bottle": "56",
+    "wall": 4,
+    "open_fillet": 1.5
+  },
+  "short_ring": {
+    "bottle": "56",
+    "ring_h": 45,
+    "open_bottom": 12
+  },
+  "tall_ring": {
+    "bottle": "56",
+    "ring_h": 140
+  },
+  "loose": {
+    "bottle": "56",
+    "bottle_clr": 0.6,
+    "clr": 0.35
+  },
+  "combo_a": {
+    "bottle": "49",
+    "open_w": 30,
+    "open_bottom": 10,
+    "open_fillet": 0.7,
+    "foot_ch": 1.0,
+    "drain_d": 8
+  },
+  "combo_b": {
+    "bottle": "custom",
+    "custom_d": 80,
+    "open_w": 50,
+    "open_bottom": 30,
+    "wall": 3,
+    "open_fillet": 1.2,
+    "ring_h": 100
+  },
+  "combo_c": {
+    "bottle": "custom",
+    "custom_d": 30,
+    "open_w": 12,
+    "open_bottom": 8,
+    "wall": 2.5,
+    "foot_ch": 2.4,
+    "drain_d": 6
+  },
+  "flare_none": {
+    "bottle": "56",
+    "open_flare": 0
+  },
+  "flare_big": {
+    "bottle": "56",
+    "open_flare": 18,
+    "open_flare_r": 22
+  },
+  "flare_tight": {
+    "bottle": "56",
+    "open_flare": 6,
+    "open_flare_r": 4
+  },
+  "flare_49": {
+    "bottle": "49",
+    "open_flare": 8
+  },
+  "flare_100": {
+    "bottle": "custom",
+    "custom_d": 100,
+    "open_flare": 14,
+    "open_flare_r": 20
+  }
+}

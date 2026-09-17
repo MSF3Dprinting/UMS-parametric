@@ -1,0 +1,55 @@
+{
+  "hook_tube19": {
+    "file": "ums_hook.scad",
+    "tube_d": 19
+  },
+  "hook_tube25": {
+    "file": "ums_hook.scad",
+    "tube_d": 25
+  },
+  "hook_tube32": {
+    "file": "ums_hook.scad",
+    "tube_d": 32
+  },
+  "hook_double_32_19": {
+    "file": "ums_hook.scad",
+    "tube_d": 32,
+    "tube_d2": 19
+  },
+  "hook_support_32": {
+    "file": "ums_hook.scad",
+    "tube_d": 32,
+    "support": true,
+    "strap": true
+  },
+  "plate_2screw": {
+    "file": "ums_hook.scad",
+    "attach": "plate"
+  },
+  "pole_clip_25": {
+    "file": "ums_hook.scad",
+    "attach": "pole",
+    "pole_d": 25
+  },
+  "pole_clip_32": {
+    "file": "ums_hook.scad",
+    "attach": "pole",
+    "pole_d": 32
+  },
+  "front_blank": {
+    "file": "ums_front_blank.scad",
+    "mode": "blank"
+  },
+  "front_adapter_h80": {
+    "file": "ums_front_blank.scad",
+    "holder_h": 80
+  },
+  "bottle_holder_49": {
+    "file": "ums_bottle_holder.scad",
+    "bottle": "49"
+  },
+  "bottle_holder_56": {
+    "file": "ums_bottle_holder.scad",
+    "bottle": "56"
+  }
+}

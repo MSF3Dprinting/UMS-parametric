@@ -1,0 +1,17 @@
+{
+  "cavity_default":  {"part": "rail", "orient": "print"},
+  "cavity_len46":    {"part": "rail", "orient": "print", "iface_len": 46},
+  "cavity_len60":    {"part": "rail", "orient": "print", "iface_len": 60},
+  "cavity_memb05":   {"part": "rail", "orient": "print", "memb_t": 0.5},
+  "cavity_memb08":   {"part": "rail", "orient": "print", "memb_t": 0.8},
+  "cavity_deep":     {"part": "rail", "orient": "print", "cav_d": 2.0},
+  "cavity_clr0":     {"part": "rail", "orient": "print", "clr": 0},
+  "cavity_clr040":   {"part": "rail", "orient": "print", "clr": 0.4},
+  "cavity_short38":  {"part": "rail", "orient": "print", "iface_len": 38},
+  "rigid_v1_38":     {"part": "rail", "orient": "print", "iface_len": 38, "spring": false},
+  "tongue_open":     {"part": "rail", "orient": "print", "iface_len": 38, "spring_style": "tongue"},
+  "socket_v1":       {"part": "socket"},
+  "socket_clr040":   {"part": "socket", "clr": 0.4},
+  "socket_len60":    {"part": "socket", "iface_len": 60},
+  "socket_nodetent": {"part": "socket", "detent": false}
+}

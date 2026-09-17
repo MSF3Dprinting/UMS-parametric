@@ -1,0 +1,120 @@
+{
+  "hook_15": {
+    "tube_d": 15,
+    "orient": "print"
+  },
+  "hook_19": {
+    "tube_d": 19,
+    "orient": "print"
+  },
+  "hook_25": {
+    "tube_d": 25,
+    "orient": "print"
+  },
+  "hook_32": {
+    "tube_d": 32,
+    "orient": "print"
+  },
+  "hook_40": {
+    "tube_d": 40,
+    "orient": "print"
+  },
+  "hook_50": {
+    "tube_d": 50,
+    "orient": "print"
+  },
+  "hook_noshell": {
+    "tube_d": 32,
+    "orient": "print",
+    "shell": false
+  },
+  "hook_tip0": {
+    "tube_d": 32,
+    "orient": "print",
+    "tip_angle": 0
+  },
+  "hook_tip70": {
+    "tube_d": 32,
+    "orient": "print",
+    "tip_angle": -70
+  },
+  "hook_clr": {
+    "tube_d": 32,
+    "orient": "print",
+    "tube_clr": 0.3,
+    "clr": 0.35
+  },
+  "hook_rigid": {
+    "tube_d": 32,
+    "orient": "print",
+    "spring": false
+  },
+  "hook_v1rail": {
+    "tube_d": 25,
+    "orient": "print",
+    "rail_len": 38
+  },
+  "plate_2screw": {
+    "attach": "plate",
+    "orient": "print"
+  },
+  "plate_3screw": {
+    "attach": "plate",
+    "orient": "print",
+    "screw_n": 3,
+    "screw_d": 4
+  },
+  "plate_plainscrew": {
+    "attach": "plate",
+    "orient": "print",
+    "screw_style": "plain"
+  },
+  "dbl_32_19": {
+    "tube_d": 32,
+    "tube_d2": 19,
+    "orient": "print"
+  },
+  "dbl_50_25": {
+    "tube_d": 50,
+    "tube_d2": 25,
+    "orient": "print"
+  },
+  "dbl_tight": {
+    "tube_d": 32,
+    "tube_d2": 19,
+    "hook2_drop": 38,
+    "orient": "print"
+  },
+  "support_only": {
+    "tube_d": 32,
+    "support": true,
+    "orient": "print"
+  },
+  "support_strap": {
+    "tube_d": 32,
+    "support": true,
+    "strap": true,
+    "orient": "print"
+  },
+  "strap_only": {
+    "tube_d": 32,
+    "strap": true,
+    "strap_z": -12,
+    "orient": "print"
+  },
+  "support_deep": {
+    "tube_d": 32,
+    "support": true,
+    "strap": true,
+    "sup_depth": 24,
+    "notch_d": 32,
+    "orient": "print"
+  },
+  "full_house": {
+    "tube_d": 32,
+    "tube_d2": 19,
+    "support": true,
+    "strap": true,
+    "orient": "print"
+  }
+}

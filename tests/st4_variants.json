@@ -1,0 +1,57 @@
+{
+  "pole_15": {
+    "attach": "pole",
+    "pole_d": 15,
+    "orient": "print"
+  },
+  "pole_20": {
+    "attach": "pole",
+    "pole_d": 20,
+    "orient": "print"
+  },
+  "pole_25": {
+    "attach": "pole",
+    "pole_d": 25,
+    "orient": "print"
+  },
+  "pole_32": {
+    "attach": "pole",
+    "pole_d": 32,
+    "orient": "print"
+  },
+  "pole_40": {
+    "attach": "pole",
+    "pole_d": 40,
+    "orient": "print"
+  },
+  "pole_50": {
+    "attach": "pole",
+    "pole_d": 50,
+    "orient": "print"
+  },
+  "pole_wrap230": {
+    "attach": "pole",
+    "pole_wrap": 230,
+    "orient": "print"
+  },
+  "pole_wrap180": {
+    "attach": "pole",
+    "pole_wrap": 180,
+    "orient": "print"
+  },
+  "pole_ties3": {
+    "attach": "pole",
+    "tie_n": 3,
+    "orient": "print"
+  },
+  "pole_noties": {
+    "attach": "pole",
+    "tie_n": 0,
+    "orient": "print"
+  },
+  "pole_rigid": {
+    "attach": "pole",
+    "spring": false,
+    "orient": "print"
+  }
+}
